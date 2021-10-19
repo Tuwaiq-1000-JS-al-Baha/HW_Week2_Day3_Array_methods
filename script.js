@@ -19,7 +19,7 @@ console.log(numbers)
 
 
 const instructors = ["Alex", "Daniel", "Morgan", "Ben", "Micah", "Jims"];
-const tt=instructors.map(function(instructors){
-    console.logt(tt+"is awesome")  
-
-}
+const tt=instructors.map(function(instructors)
+{return instructors+"is awesome"
+})
+console.logt(tt) 
