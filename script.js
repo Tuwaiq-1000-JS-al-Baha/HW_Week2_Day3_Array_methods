@@ -1,7 +1,7 @@
 const friends = ["Melissa", "Marc", "Andrew", "Nick"]
 
 friends.forEach(function (friend) {
-  console.log("I have a friend named " + friend)
+  console.log("I have a friend named " + friend.toLowerCase)
 })
 /////////have a friend named <friend's name>" for each friend
 friends.forEach(function (friend) {
@@ -25,3 +25,5 @@ console.log(numbersTimesTwo * 2)
 ///callback
 const timesTwo = numbers.map(num => num * 2)
 console.log(numbers * 2)
+
+///////////
